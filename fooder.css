@@ -1,0 +1,73 @@
+img{
+    width: 100%;
+    height: 580px;
+    position: absolute;
+    z-index: -2;
+filter: blur(1px);
+   /* color-interpolation-filters: sRGB; */
+}
+
+/*code for  Navigation here */
+a {
+    margin: 0px 52px;
+    text-decoration: none;
+}
+.info ul {
+    margin: 0px 10px;
+    padding: 10px 6px;
+    list-style: none;
+    display: flex;
+}
+.info{
+    animation: mymove1 10s infinite;
+    animation-direction: alternate-reverse;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(110deg, #11ec49bd 60%, #e3c200ab 60%);
+}
+@keyframes mymove1 {
+    0%   {background:linear-gradient(110deg, #2011ec 60%, #00e31e 60%);}
+  25%  {background: linear-gradient(110deg, #d2ec11 60%, #000fe3 60%);}
+  50%  {background: linear-gradient(110deg, #3d11ecbd 60%, #ff8b17 60%) ;}
+  75%  {background:  linear-gradient(110deg, #ec1111bd 60%, #009fe3 60%)}
+}
+.srch{
+    float: left;
+}
+#search {
+    position: fixed;
+    right: 37px;
+    top: 18px;
+    border-radius: 20px;
+}
+/*code for  Navigation here */
+
+
+/* Code for body main heading  */
+.mainbody{
+    color: #79ff00;
+    text-shadow: 2px 2px #ff5400;
+    padding: 198px 380px;
+    margin: -6px -22px;
+}
+
+/* Information gather from user */
+.maininfo{
+    animation: mymove 10s infinite;
+            animation-direction: alternate-reverse;
+    background-color: #13b9d2b0;
+    position: absolute;
+    margin: -418px 19px;
+    
+    padding: 61px 6px;
+}
+@keyframes mymove {
+    0%   {background: red;color :aqua}
+  25%  {background: yellow;color :rgb(255, 0, 0)}
+  50%  {background: blue;color :rgb(234, 255, 0) }
+  75%  {background: green;color :rgb(255, 0, 0)}
+  100% {background: red;color :aqua}
+}
+.infm{
+    margin: 20px 9px;
+}
